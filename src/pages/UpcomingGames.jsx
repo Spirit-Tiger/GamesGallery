@@ -1,13 +1,13 @@
 import React from "react";
 import GamesList from "../components/GamesList";
 
-const Home = () => {
+const UpcomingGames = () => {
   return (
     <div>
-      <h2>Home Page</h2>
-      <GamesList />
+      <h2>Upcoming Games</h2>
+      {/* <GamesList /> */}
     </div>
   );
 };
 
-export default Home;
+export default UpcomingGames;
